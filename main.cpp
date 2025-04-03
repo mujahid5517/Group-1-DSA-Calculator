@@ -1,3 +1,5 @@
+//this is my comment
+//second comment
 #include<iostream>
 using namespace std;
 // Function prototypes
