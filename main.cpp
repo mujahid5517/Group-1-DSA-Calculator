@@ -1,15 +1,16 @@
-//may comment by makiba
+// This is a simple calculator program that performs basic arithmetic operations.
+// The operations include addition, subtraction, multiplication, division, and squaring the first number.
 #include<iostream>
 using namespace std;
 // Function prototypes
-int add(int a, int b);
-int subtract(int a, int b);
-int multiply(int a, int b);
-int divide(int a, int b);
-int square(int a);
+int add(int a, int b);//adds two numbers 
+int subtract(int a, int b);//subtracts the second number from the first
+int multiply(int a, int b);//multiplies two numbers
+int divide(int a, int b);//divides the first number by the second
+int square(int a);//squares the first number
 int main() {
-    int num1, num2;
-    char operation;
+    int num1, num2;// Declare two integers for user input
+    char operation;// Declare a character to hold the operation
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     cout << "Choose operation (+, -, *, /): ";
